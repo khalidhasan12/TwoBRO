@@ -1,0 +1,67 @@
+body {
+  background-color: #3b3838;
+  color: #fff; }
+
+.navbar {
+  opacity: 0.7;
+  border-bottom: 2px solid rgba(8, 99, 236, 0.842); }
+
+#home-section {
+  background: url(../img/home.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+  #home-section .fa {
+    background: #fff;
+    color: #008ed6;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px; }
+
+#blog-main .fa {
+  background: red;
+  color: #fff;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+#explore-main .fa {
+  background: #fff;
+  color: #008ed6;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+#share-main .fa {
+  background: dodgerblue;
+  color: #fff;
+  padding: 5px;
+  font-size: 30px;
+  border-radius: 5px; }
+
+#contact-main {
+  background: #7a6262; }
+  #contact-main .fa {
+    background: #0459d8;
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 5px; }
+
+@media (max-width: 575px) {
+  #home-section .row h1 {
+    font-size: 27px; }
+  #home-section .row p {
+    font-size: 17px;
+    padding: 0; }
+  #home-section .fa {
+    font-size: 25px;
+    padding: 3px; } }
